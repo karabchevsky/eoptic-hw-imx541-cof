@@ -1,0 +1,70 @@
+
+Power Report for design iron_top with the following settings:
+
+ Vendor:    Microchip Technology Inc.                                        
+ Program:   Microchip Libero Software, Release 2025.1 (Version 2025.1.0.14)  
+            Copyright (C) 1989-2025                                          
+ Date:      Thu Sep 24 13:20:17 2026                                         
+ Version:   3.0                                                              
+
+
+ Design:                 iron_top    
+ Family:                 PolarFire   
+ Die:                    MPF100T     
+ Package:                FCSG325     
+ Temperature Range:      IND         
+ Voltage Range:          IND         
+ Operating Conditions:   Worst       
+ Operating Mode:         Active      
+ Process:                Typical     
+ Data Source:            Production  
+
+
+Power Summary
++---------------+------------+------------+
+|               | Power (mW) | Percentage |
++---------------+------------+------------+
+| Total Power   |   1057.692 |     100.0% |
+| Static Power  |    286.870 |      27.1% |
+| Dynamic Power |    770.821 |      72.9% |
++---------------+------------+------------+
+
+
+Operating Condition Summary
++----------------------+----------+----------------------------------+
+|                      | Value    | Range Definition                 |
++----------------------+----------+----------------------------------+
+| Junction Temperature | 100.00 C | Design operating range (default) |
+|                      |          |                                  |
+| VDD                  | 1.030 V  | Design operating range(default)  |
+| VDD18                | 1.890 V  | Design operating range(default)  |
+| VDDI 1.8             | 1.890 V  | Design operating range(default)  |
+| VDDA                 | 1.030 V  | Design operating range(default)  |
+| VDDA25               | 2.625 V  | Design operating range(default)  |
+| VDD25                | 2.625 V  | Design operating range(default)  |
+| VDDAUX               | 2.625 V  | Design operating range(default)  |
+| VDDI 2.5             | 2.625 V  | Design operating range(default)  |
+| XCVR_VDD_CLK 2.5     | 2.625 V  | Design operating range(default)  |
+| VDDI 3.3             | 3.465 V  | Design operating range(default)  |
+| VDDI 1.2             | 1.260 V  | Design operating range(default)  |
++----------------------+----------+----------------------------------+
+
+
+Breakdown by Rail
++-----------------------+------------+-------------+--------------+
+|                       | Power (mW) | Voltage (V) | Current (mA) |
++-----------------------+------------+-------------+--------------+
+| Rail VDD              |    891.095 |      1.030  |    865.141   |
+| Rail VDD18            |      0.693 |      1.890  |      0.366   |
+| Rail VDDI 1.8         |      0.949 |      1.890  |      0.502   |
+| Rail VDDA             |     57.129 |      1.030  |     55.465   |
+| Rail VDDA25           |     67.316 |      2.625  |     25.644   |
+| Rail VDD25            |     30.117 |      2.625  |     11.473   |
+| Rail VDDAUX           |      1.643 |      2.625  |      0.626   |
+| Rail VDDI 2.5         |      0.621 |      2.625  |      0.237   |
+| Rail XCVR_VDD_CLK 2.5 |      5.860 |      2.625  |      2.232   |
+| Rail VDDI 3.3         |      2.269 |      3.465  |      0.655   |
+| Rail VDDI 1.2         |      0.000 |      1.260  |      0.000   |
++-----------------------+------------+-------------+--------------+
+
+
